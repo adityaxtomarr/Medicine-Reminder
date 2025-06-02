@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Reminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><span class="icon">💊</span> Medicine Reminder</h1>
+        <label for="medicineName">Medicine Name</label>
+        <input type="text" id="medicineName" placeholder="Enter medicine name…">
+        <label for="reminderTime">Reminder Time</label>
+        <input type="time" id="reminderTime">
+        <button onclick="setReminder()">Set Reminder</button>
+        <h2>Active Reminders</h2>
+        <ul id="reminderList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
